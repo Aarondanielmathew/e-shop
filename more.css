@@ -1,0 +1,80 @@
+.carousel-item {
+    height: 100vh;
+    
+}
+.img-box {
+    width: 550px;
+    position: relative;
+}
+.img-1 {
+    width: 100%;
+}
+.img-2 {
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+.img-2 {
+    width: 75px;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+}
+.img-4 {
+    width: 160px;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+.img-5 {
+    width: 110px;
+    position: absolute;
+    right: 20px;
+    bottom:0;
+}
+.img-6 {
+    width: 160px;
+    position: absolute;
+    right: 160px;
+    bottom: 35px;
+}
+
+.slide-1 {
+    background-color: #b0c6f5;
+}
+.carousel-item .row {
+    margin: 12% 0;
+}
+.carousel-item h1{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.carousel-item p{
+    margin: 30px 0 50px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #f7f7f7;
+}
+.carousel-item button {
+padding: 6px 20px;
+background: #0c5ce3;
+border: 0;
+outline: none;
+border-radius: 20px;
+color: #ffffff;
+font-size: 13px;
+}
+.slide-2 {
+    background: #f7f7f7;
+}
+.slide-2 h1,.slide-2 p{
+    color: #feb154;
+}
+.pic-1 {
+width: 100%;
+}
+.slide-2 button {
+    background: linear-gradient(to right,#feb154, #ffd255);
+}
