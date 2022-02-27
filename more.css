@@ -151,6 +151,7 @@ body{
 }
 h2 {
     color: #2c363f;
+    font-weight: 700;
 }
 p {
     color: #2c363f;
@@ -160,4 +161,66 @@ p {
 }
 .service i{
     font-size: 2rem;
+}
+hr {
+    width: 60px;
+    height: 2px;
+    background-color: #ff9955f1;
+}
+#cart-container{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+#cart-container table thead{
+   font-weight: 700; 
+}
+#cart-container table thead td{
+    background-color: #feb154;
+    color: #ffffff;
+    border: none;
+    padding: 6px 0;
+}
+#cart-container table td{
+    border: 1px solid rgb(107, 107, 107);
+    text-align: center;
+}
+#cart-container table td:nth-child(1){
+    width: 100px;
+}
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3){
+    width: 200px;
+}
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6){
+    width: 170px;
+}
+#cart-container table tbody img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+#btn {
+    background: linear-gradient(to right,#feb154, #ffd255);
+    color: #f7f7f7;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    font-weight: 100;
+    padding: 5px;
+}
+#btn-1 {
+background-color: #80ffa0;
+padding: 10px;
+color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+#cart h5,h6{
+ font-weight: 700;
+}
+#cart h5{
+padding-bottom:26px;
 }
