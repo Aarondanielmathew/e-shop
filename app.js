@@ -1,1 +1,1 @@
-ma
+function(gg)
