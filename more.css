@@ -202,13 +202,13 @@ hr {
     height: 80px;
     object-fit: cover;
 }
-#btn {
-    background: linear-gradient(to right,#feb154, #ffd255);
+.btn1 {
+    background: linear-gradient(to right,rgb(254, 177, 84), #ffd255);
     color: #f7f7f7;
     font-size: 1.1rem;
     border-radius: 3px;
-    font-weight: 100;
-    padding: 5px;
+    font-weight: 500;
+    padding: 10px;
 }
 #btn-1 {
 background-color: #80ffa0;
@@ -223,4 +223,11 @@ a {
 }
 #cart h5{
 padding-bottom:26px;
+}
+.h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+p{
+    font-weight: 500;
 }
